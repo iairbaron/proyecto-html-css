@@ -1,0 +1,163 @@
+html {
+  font-size: 62.5%;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+:root {
+  --color_primario: #2e3d74;
+  --color_secundario: #f3603b;
+  --p_color_primario: #171717;
+  --p_color_secundario: #6a6a6a;
+  --p_color_terciario: #b9b9c1;
+}
+
+header {
+  margin: 10rem;
+  margin-bottom: 10rem;
+  margin-top: 2.5rem;
+  color: var(--color_primario);
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 2.5rem;
+  align-items: center;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  font-size: 1.5rem;
+}
+
+header img {
+  color: var(--color_primario);
+}
+
+.button,
+.button1 {
+  padding: 1.5rem 5rem;
+  border: none;
+  border-radius: 2rem;
+}
+
+.button,
+.button1 {
+  background-color: var(--color_secundario);
+  color: white;
+}
+
+.conteiner {
+  display: flex;
+  margin: auto;
+  height: 549px;
+  width: 77vw;
+}
+
+.conteiner section {
+  width: 50%;
+  height: 100%;
+}
+
+.conteiner .section1 {
+  padding: 3rem;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.conteiner .section1 .bring {
+  height: 180px;
+  width: 400px;
+  margin-bottom: 2rem;
+}
+
+.conteiner .section1 .button {
+  margin-top: 25px;
+  margin-left: -0.3rem;
+}
+
+.conteiner .section2 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: -6px;
+  padding: 2rem;
+  max-width: 95%;
+  max-height: 90%;
+}
+
+.conteiner .section3 {
+  padding-left: 2.1rem;
+  color: #232c50;
+}
+
+.conteiner .section3 h1 {
+  width: 500px;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.conteiner .section3 p {
+  margin-top: -3rem;
+  font-size: 2rem;
+  width: 290px;
+}
+
+
+.conteiner .section4 .button-h1 {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  margin-top: 5.5rem;
+}
+.conteiner .section4 .buttonS4 {
+  width: 75px;
+  height: 50px;
+  border: none;
+  border-radius: 70px;
+  background-color: var(--color_secundario);
+  color: white;
+  font-weight: bold;
+  font-size: 1.7rem;
+  margin-right: 0;
+}
+
+.conteiner .section4 .box h2 {
+  margin-left: 0;
+  color: var(--color_primario);
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.conteiner .section4 .box {
+  margin-left: 10rem;
+}
+
+.conteiner .section4 .box p{
+  margin-top: 0;
+  margin-left: 9.2rem;
+  font-size: 1.3rem;
+  color: #B3B2B7;
+  line-height: 25.52px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.conteiner2 {
+  margin: auto;
+  padding-top: 18rem;
+  width: 80vw;
+  height: 500px;
+  text-align: center;
+}
+.conteiner2 h1 { 
+    font-size: 5rem;
+    color: var(--color_primario);
+    font-weight: bold;
+}
+
+
+

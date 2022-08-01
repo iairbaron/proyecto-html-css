@@ -1,0 +1,278 @@
+@media (max-width: 480px){
+
+h2 {
+    width: auto;
+    font-weight: bold;
+    font-size: 3rem;
+    /* text-align: center; */
+    color: #2e3d74;
+}
+    
+    header .button, nav {
+        display: none;
+    }
+   header {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding: 0.5rem;
+    height: 2rem;
+    align-items: center;
+}
+
+
+    header .burger{
+        height: 4.7rem
+
+    }
+    
+    .conteiner{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 5rem 5rem;
+    
+    }
+
+    .conteiner section {
+        width: 100%;
+    }
+    .conteiner .section2 img{
+        width: 25rem;
+        height: auto;
+    }
+
+    .conteiner .section1 .button {
+    margin: 0 auto;
+    width: 15rem;
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+    
+    .section1 {
+        width: 100%;
+        gap: 2rem;
+    }
+   
+    .conteiner .section1 .bring {
+        margin: 0 auto;
+        width: 25rem;
+        height: auto;
+    }
+    .conteiner .section1 .manageMakes{
+         margin: 0 auto;
+        width: 25rem;
+        height: auto;
+    }
+    .conteiner .section1 .button {
+        margin: 0 auto;
+    }
+    .conteiner .section4 .box {
+    margin-left: auto;
+}
+
+
+.conteiner .section4 .box p {
+    margin-top: auto;
+    margin-left: auto;
+    font-size: 1.3rem;
+    color: #b3b2b7;
+    line-height: 2.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.conteiner .section3 {
+    padding-left: 0;
+    color: #232c50;
+}
+.conteinerMobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h2 {
+    width: auto;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+
+}
+.conteiner .section3 h2 {
+    color: #232c50;
+    width: 25rem;
+    font-size: 3rem;
+}
+
+.conteiner .section3 p {
+    margin-top: 0.3rem;
+    text-align: center;
+    font-size: 1.5rem;
+    width: auto;
+    color: #b9b9c1;
+}
+
+.conteiner .section3 p {
+    margin-top: .3rem; 
+    text-align: center;
+    font-size: 2rem;
+    width: auto;
+}
+
+.conteiner .section4 .button-h1 {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 2rem;
+}
+.conteiner .section4 .box h2 {
+    margin-left: 0;
+    color: var(--color_primario);
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 25rem;
+    text-align: start;
+}
+
+.conteiner2 {
+    margin: auto;
+    padding-top: 0;
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin-bottom:auto; 
+}
+.conteiner2 section .article {
+    display: none; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 22%;
+    height: 22rem;
+    background-color: #FAFAFA;
+}
+.conteiner .section3 h2 { /*for "What´s different about
+Manage?"
+    color: #232c50;
+    /* width: 50rem; */
+    /* font-size: 5rem; */
+    font-weight: bold;
+}
+
+.article2, .article3{
+    display: none;
+}
+#articleMobile{
+    display: flex;
+    margin-top: 3rem;
+}
+
+#articleMobile .button{
+    width: 10rem;
+    padding: 1rem;
+
+}
+
+.conteiner2 section {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+footer .frame { /*frame del footer */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* align-items: center; */
+    justify-content: center;
+    height: 26.5rem;
+}
+footer .frame p {
+    width: 7rem;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    width: 27rem;
+    margin: 2rem auto;
+    align-self: center;
+}
+
+footer .frame .button { 
+    background-color: white;
+    color: #F3603B;
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 12rem;
+    padding: 1rem;
+}
+.footer {
+    display: none;
+
+}
+.footerMobile{
+    background-color: #0e1b48 ;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.footerMobile .input-button {
+    margin-top: 2rem;
+}
+
+.footerMobile  .input-button input {
+    margin-right: .4rem;
+    width: 17rem;
+    height: 2.5rem;
+    border-radius: 6rem;
+    border: none;
+    padding: 0.6rem;
+}
+.footerMobile .input-button button{
+  width: 7.5rem;
+  height: 4rem;
+  border: none;
+  border-radius: 7rem;
+  background-color: var(--color_secundario);
+  color: white;
+  font-weight: bold;
+}
+.footerMobile .box2{
+    font-size: 1.2rem;
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    line-height: 2.5rem;
+    
+}
+    .footerMobile ul{
+        list-style: none;
+    }
+
+    .footerMobile .socialMedia  {
+    display: flex;
+    gap: 2.6rem;
+    margin-bottom: 3rem;
+}
+.footerMobile  p{
+  margin-top: auto 2rem;
+  color:#8C8C94 ;
+  font-size: 1.2rem ;
+  width: 30rem;
+  text-align: center;
+
+}
+}
+
+@media  (min-width: 1440px) {
+   header .burger   { display:none;
+
+}
+.footerMobile{
+    display: none;
+}
+}

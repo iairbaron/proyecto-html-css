@@ -1,0 +1,301 @@
+body{
+  margin: 0;
+
+}
+html {
+  font-size: 62.5%;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+:root {
+  --color_primario: #2e3d74;
+  --color_secundario: #f3603b;
+  --p_color_primario: #171717;
+  --p_color_secundario: #6a6a6a;
+  --p_color_terciario: #b9b9c1;
+}
+
+header {
+  margin: 7rem;
+  margin-top: 2.5rem;
+  color: var(--color_primario);
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 2.5rem;
+  align-items: center;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  font-size: 1.5rem;
+}
+header button {
+  padding: 1rem;
+}
+header img {
+  color: var(--color_primario);
+}
+
+.button,
+.button1 {
+  border: none;
+  border-radius: 2rem;
+}
+
+.button,
+.button1 {
+  background-color: var(--color_secundario);
+  color: white;
+}
+
+.conteiner {
+  display: flex;
+  margin: auto;
+  width: 77vw;
+}
+
+.conteiner section {
+  width: 50%;
+  height: 100%;
+}
+
+.conteiner .section1 {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.conteiner .section1 .bring {
+  height: 18rem;
+  width: 40rem;
+  margin-bottom: 2rem;
+}
+
+.conteiner .section1 .button {
+  margin-top: 2.5rem;
+  padding: 2rem;
+
+}
+
+.conteiner .section2 img{
+  margin-top: 1.5rem;
+  width: 54rem;
+  height: 49rem;
+}
+
+.conteiner .section3 {
+  color: #232c50;
+}
+
+.conteiner .section3 h2 {
+  color: #232c50;
+  width: 50rem;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.conteiner .section3 p {
+  margin-top: -3rem;
+  font-size: 2rem;
+  width: 29rem;
+}
+
+.conteiner .section4 .button-h1 {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  margin-top: 5.5rem;
+}
+.conteiner .section4 .buttonS4 {
+  width: 7.5rem;
+  height: 5rem;
+  border: none;
+  border-radius: 7rem;
+  background-color: var(--color_secundario);
+  color: white;
+  font-weight: bold;
+  font-size: 1.7rem;
+  margin-right: 0;
+}
+
+.conteiner .section4 .box h2 {
+  margin-left: 0;
+  color: var(--color_primario);
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.conteiner .section4 .box {
+  margin-left: 10rem;
+}
+
+.conteiner .section4 .box p {
+  margin-top: 0;
+  margin-left: 9.2rem;
+  font-size: 1.3rem;
+  color: #b3b2b7;
+  line-height: 2.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.conteiner2 {
+  margin: auto;
+  padding-top: 18rem;
+  width: 80vw;
+  height: 50rem;
+  text-align: center;
+  margin-bottom: 30rem;
+}
+.conteiner2 h1 {
+  font-size: 5rem;
+  color: var(--color_primario);
+  font-weight: bold;
+}
+.conteiner2 section {
+  display: flex;
+  justify-content: center;
+  margin-top: 17rem;
+}
+
+.conteiner2 section .article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 22%;
+  height: 22rem;
+  background-color: #FAFAFA;
+}
+
+.conteiner2 section .article h3 {
+  font-weight: bold;
+  font-size: 1.6rem;
+  margin-top: 0px;
+  
+}
+.conteiner2 section .article p {
+  font-size: 1rem;
+  line-height: 2rem;
+  color: #b9b9c1;
+  width: 22rem;
+}
+
+.conteiner2 section .article img {
+  position: relative;
+  margin-top: -8rem;
+  margin-bottom: 1.2rem;
+  width: 7rem;
+  height: 7rem;
+}
+
+footer .frame {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 22.4rem;
+  background-color: var(--color_secundario);
+}
+
+footer .frame .button {
+  background-color: white;
+  color: #F3603B ;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+footer .frame  p{
+  width: 7rem;
+  color: white;
+  font-weight: bold;
+  font-size: 2.7rem;
+  width: 30rem;
+  margin-left: 4.5rem;
+}
+.footer {
+height: 25rem;
+width: 100%;
+background-color: #1E1E26;
+display: flex;
+justify-content: center;
+margin-bottom: 5rem;
+}
+
+footer .footer .box,.box3,.box4 {
+  width: 15%;
+}
+footer .footer .box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+
+.footer .box img.manage{
+  width: 16rem;
+  color: white ;
+}
+
+
+.footer .box .socialMedia img{
+      margin-right: 1rem;  
+
+}
+
+.footer .box2{
+  width: 35rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .box2 ul {
+  list-style: none;
+  color: white;
+}
+
+.footer .box2 ul li {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.footer .box3 input {
+  margin: auto;
+  width: 17rem;
+  height: 3.6rem;
+  border-radius: 6rem;
+  border: none;
+}
+
+.footer .box3 {
+  margin-left: 14rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.footer .box3 p{
+  color:#8C8C94 ;
+  font-size: 1.5rem ;
+  margin-left: 6rem;
+  width: 30rem;
+}
+
+.footer .box3  button{
+  width: 7.5rem;
+  height: 4rem;
+  border: none;
+  border-radius: 7rem;
+  background-color: var(--color_secundario);
+  color: white;
+  font-weight: bold;
+}
+
+.footer .box3 .input-button{
+  display: flex;
+}
